@@ -1,6 +1,6 @@
 class cal(): #klass 'cal'
     def __init__(self,a,b):
-        self.a = a
+        self.a = a #salvestab argument a klassi atribuuti self.a
         self.b = b
 
     def liitmine(self): #
@@ -20,7 +20,7 @@ b = int(input("Sisesta teine number: ")) #küsib kasutajalt teist täisarvu
 
 kalk = cal(a,b)
 while True: #algatab lõpmatu tsükli
-    def menu():
+    def menu(): #menüü funktsioon
         x = ('1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. Ruutjuure leidmine. ')
         print(x)#printib menüü valikud ekraanile
     menu()
